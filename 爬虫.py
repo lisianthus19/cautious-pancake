@@ -18,7 +18,8 @@ def save_data(title, concent):
         os.mkdir(path)
     with open(f'{path}/{title}.txt', 'w', encoding='utf-8') as f:
         f.write(concent)
-    print(f'{title}章节爬取成功--------------------------------------')
+    print(f'{title}章节爬取成功')
+    print("程序结束")
 def parse_html(html):
     soup = BeautifulSoup(html, 'lxml')
 
