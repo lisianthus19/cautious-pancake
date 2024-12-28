@@ -4,6 +4,7 @@ def main_menu():
     print("2. 浏览商品")
     print("3. 设置")
     print("4. 退出")
+    print("5. 无操作")
     choice = input("请选择一个选项（1-4）：")
     return choice
 
